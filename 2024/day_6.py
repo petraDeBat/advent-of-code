@@ -1,0 +1,19 @@
+# test input
+test_input = '''....#.....
+.........#
+..........
+..#.......
+.......#..
+..........
+.#..^.....
+........#.
+#.........
+......#...'''
+
+# Rules to follow:
+# Start position: Up
+# If there is something directly in front of you, turn right 90 degrees.
+# Otherwise, take a step forward.
+# End position: when the guard's coordinates is off the the grid
+
+# output: the number of turns (i think??)
